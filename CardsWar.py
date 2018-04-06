@@ -7,7 +7,7 @@
 
 import sys
 
-def solution(cardsA, cardsB):
+def solution(CARDS_A, CARDS_B):
 
  hierarchy_deck = {'T':10,'J':11,'Q':12,'K':13,'A':14} #Creation of Hierarchy for values not between 2 and 9, both inclusive
 
@@ -30,7 +30,7 @@ def solution(cardsA, cardsB):
  return (alice_count)
  
 if __name__ == "__main__":
- A = sys.argv[1]                                      #Accepting two CommandLine arguments in the form of two sets of strings as packs of cards
- B = sys.argv[2]
- Alice_Count = solution(A, B)
+ cardsA = sys.argv[1]                                  #Accepting two CommandLine arguments in the form of two sets of strings as packs of cards
+ cardsB = sys.argv[2]
+ Alice_Count = solution(cardsA, cardsB)
  print("\nAlice will win %d times\n" % Alice_Count)   #Prints the Result of Wins by Alice
