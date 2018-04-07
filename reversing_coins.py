@@ -1,8 +1,9 @@
 # Author: Mihir Phatak
 # Date: April 07, 2018
-# Purpose: Simple Coding Challenge at https://gist.github.com/jamalc/0d4b9229ca62d4eb9d424a736c5f75ee
+# Purpose: Simple Coding Challenge Problem 3 at https://gist.github.com/jamalc/0d4b9229ca62d4eb9d424a736c5f75ee
 # Title : Minimum Coin Flips Calculation
 # Program Language : Python3
+# Usage : Run program as python reversing_coins.py 
 
 def solution(coins):
  count0 = coins.count(0)

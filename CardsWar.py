@@ -3,7 +3,7 @@
 # Purpose: Coding Challenge 
 # Title : Cards War Problem 1 at : https://gist.github.com/jamalc/0d4b9229ca62d4eb9d424a736c5f75ee
 # Program Language : Python3
-# Usage : Run as : python CardsWar.py Alice_Cards Bob_Cards 
+# Usage : Run as : python CardsWar.py Alice_Cards Bob_Cards where Alice_Cards and Bob_Cards are strings 
 
 import sys
 
@@ -33,4 +33,4 @@ if __name__ == "__main__":
  cardsA = sys.argv[1]                                  #Accepting two CommandLine arguments in the form of two sets of strings as packs of cards
  cardsB = sys.argv[2]
  Alice_Count = solution(cardsA, cardsB)
- print("\nAlice will win %d times\n" % Alice_Count)   #Prints the Result of Wins by Alice
+ print("\nAlice will win %d times.\n" % Alice_Count)   #Prints the Result of Wins by Alice
